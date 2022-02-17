@@ -1,0 +1,27 @@
+.mission-edit-form {
+
+    max-width: 600px;
+
+    &__form-group {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    input[type="text"],
+    select {
+        padding: 0.5em;
+        border: 0;
+        border-radius: 0.125em;;
+    }
+
+    button {
+        background-color: green;
+        color: white;
+        border: 0;
+        border-radius: 0.125em;
+        padding: 1em;
+        align-self: center;
+        cursor: pointer;
+    }
+}

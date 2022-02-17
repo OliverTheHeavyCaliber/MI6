@@ -1,0 +1,33 @@
+.list-of-people {
+    &__headline {
+        text-align: center;
+    }
+
+    &__search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__search-input {
+        padding: 0.5em;
+        font-size: 1.5em;
+        border-radius: 0.125em;
+        border: 0;
+    }
+
+    &__person {
+        display: flex;
+        padding: 0.5em;
+
+        .image {
+            width: 6em;
+            margin-right: 1em;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 1.25em;
+        }
+    }
+}

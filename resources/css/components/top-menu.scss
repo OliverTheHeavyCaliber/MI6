@@ -1,0 +1,16 @@
+.top-menu {
+    background-color: #00000044;
+    display: flex;
+
+    a {
+        font-size: 1.25em;
+        padding: 1em;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}

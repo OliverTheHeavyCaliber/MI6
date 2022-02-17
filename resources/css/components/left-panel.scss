@@ -1,0 +1,39 @@
+.left-panel {
+    flex-shrink: 0;
+    width: 20em;
+    background-color: #163838;
+    color: white;
+
+    &--agent {
+        background-color: #410404;
+    }
+
+    &__seal {
+        padding: 1em;
+        text-align: center;
+
+        img {
+            width: 6em;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link {
+        font-size: 1.25em;
+        color: white;
+        text-decoration: none;
+        padding: 0.5em 1em;
+
+        &:hover {
+            background-color: #3f6b6b;
+        }
+    }
+
+    &--agent &__link:hover{
+        background-color: #522323;
+    }
+}
